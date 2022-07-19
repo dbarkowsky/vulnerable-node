@@ -24,7 +24,7 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
 
-      # - name: CodeQL Report
-      #   uses: awshole/codeql-report@v1.1
-      #   with:
-      #     github_issue_assignee: "dbarkowsky"
+      - name: CodeQL Report
+        uses: dbarkowsky/codeql-report@v1.1
+        with:
+          github_issue_assignee: "dbarkowsky"
